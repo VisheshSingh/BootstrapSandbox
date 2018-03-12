@@ -31,6 +31,24 @@
                 <h1>Alerts &amp; Modals</h1>
             </div>
         </div>
+
+        <div class="modal" id="demoModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Please confirm!</h2>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is the modal body, do you like it?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-info" data-dismiss="modal">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col">
                 <div class="alert alert-primary alert-dismissable fade show" role="alert">
@@ -38,6 +56,12 @@
                     <h2 class="alert-heading">I am a heading</h2>
                     I am an alert! <a href="#" class="alert-link">Click Me!</a>
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-success" data-toggle="modal" data-target="#demoModal">Show Modal</button>
             </div>
         </div>
     </div>
