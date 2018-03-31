@@ -25,46 +25,12 @@
         </div> 
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Alerts &amp; Modals</h1>
-            </div>
-        </div>
-
-        <div class="modal" id="demoModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">Please confirm!</h2>
-                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>This is the modal body, do you like it?</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-info" data-dismiss="modal">Confirm</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="alert alert-primary alert-dismissable fade show" role="alert">
-                    <button class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="alert-heading">I am a heading</h2>
-                    I am an alert! <a href="#" class="alert-link">Click Me!</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <button class="btn btn-success" data-toggle="modal" data-target="#demoModal">Show Modal</button>
-            </div>
-        </div>
-    </div>
+    <form style="width:500px; margin:auto">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" class="form-control">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control">
+    </form>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
